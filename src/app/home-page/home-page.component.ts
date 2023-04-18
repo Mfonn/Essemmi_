@@ -12,27 +12,27 @@ export class HomePageComponent {
 
   images = [{
     imageSrc:
-      '/../assets/images/shoe1.jpg',
+      'assets/images/shoe1.jpg',
     imageAlt: 'shoe1',
   },
   {
     imageSrc:
-      '/../assets/images/shoe2.png',
+      'assets/images/shoe2.png',
     imageAlt: 'shoe2',
   },
   {
     imageSrc:
-      '/../assets/images/shoe3.png',
+      'assets/images/shoe3.png',
     imageAlt: 'shoe3',
   },
   {
     imageSrc:
-      '/../assets/images/shoe4.png',
+      'assets/images/shoe4.png',
     imageAlt: 'shoe3',
   },
   {
     imageSrc:
-      '/../assets/images/shoe5.png',
+      'assets/images/shoe5.png',
     imageAlt: 'shoe3',
   }
 ]

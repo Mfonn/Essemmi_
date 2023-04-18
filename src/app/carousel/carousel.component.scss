@@ -36,9 +36,23 @@
     }
 }
 
+
+
+@media only screen and (max-width: 900px) {
+    .carousel-container {
+        width: 100vw;
+    }
+
+
+.carousel-container img {
+    border-radius: 0;
+}
+
+}
+
 @media only screen and (max-width: 600px) {
     .carousel-container {
-        width: 90vw;
+        width: 100vw;
     }
-    
+
 }

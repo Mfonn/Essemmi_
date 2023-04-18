@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { LikeToDesignComponent } from '../like-to-design/like-to-design.component';
 
 @Component({
   selector: 'app-home-page',
@@ -34,4 +36,12 @@ export class HomePageComponent {
     imageAlt: 'shoe3',
   }
 ]
+
+
+constructor(private dialogRef : MatDialog){}
+
+  openDialog(){
+  this.dialogRef.open(LikeToDesignComponent)
+  }
 }
+

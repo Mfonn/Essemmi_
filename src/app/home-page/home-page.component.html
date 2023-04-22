@@ -7,7 +7,8 @@
     
 
     <div class="message">
-        <mat-icon>sms</mat-icon>
+        
+        <button class='chat' ><mat-icon (click)="openDialogg()">sms </mat-icon></button>
     </div>
     
 
@@ -17,7 +18,40 @@
                 <!-- </a> -->
         
     </div>
+
+
+    
+</div>
+<div class="custom">
+    <p class="text_1">Custom shoes and belts in three easy steps</p>
+    <p class="text_2"><mat-icon class="check">check_circle_outline</mat-icon>Style<mat-icon class="line">minimize</mat-icon>
+        <mat-icon class="check">check_circle_outline</mat-icon> Material<mat-icon class="line">minimize</mat-icon> 
+        <mat-icon class="check size">check_circle_outline</mat-icon>Size</p>
+
+</div>
+
+<div class="where">
+    <p>Only your shoes know where you're going ...</p>
+</div>
+
+<div class="carousel2">
+    <app-carousel2
+    [images]="images"
+    [autoSlide]="true"
+    ></app-carousel2>
     
 </div>
 
+
+<div class="world">
+    <p class="world_text">The world is at your feet,</p>
+     <p class="world_text">so make sure you’re</p>   
+      <p class="world_text"> wearing great shoes...</p>
+</div>
+
+<div class="footer">
+    <p>About:</p>
+    <p>Contact:</p>
+
+</div>
 

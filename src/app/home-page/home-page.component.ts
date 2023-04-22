@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { LikeToDesignComponent } from '../like-to-design/like-to-design.component';
+import { ChatComponent } from '../chat/chat.component';
 
 @Component({
   selector: 'app-home-page',
@@ -38,10 +39,15 @@ export class HomePageComponent {
 ]
 
 
-constructor(private dialogRef : MatDialog){}
+constructor(public dialog : MatDialog){}
 
   openDialog(){
-  this.dialogRef.open(LikeToDesignComponent)
+  this.dialog.open(LikeToDesignComponent)
   }
+
+  openDialogg(){
+    this.dialog.open(ChatComponent)
+    }
 }
+
 

@@ -1,0 +1,82 @@
+
+.mat-mdc-dialog-container {
+    height: 100%;
+    background-color: #BCBBB7;
+    color: #361B1B;
+
+    margin: 0;
+
+
+
+}
+
+.mat-mdc-dialog-container, .mdc-dialog__container, .mdc-dialog__surface  {
+    border-radius: 28px;
+}
+
+.chat {
+
+    background-color: #BCBBB7;
+    color: #361B1B;
+    margin: 0;
+
+    height: 65vh;
+    color: #361B1B;
+    background-color:#BCBBB7;
+
+    font-family: 'Josefin Slab', serif;
+
+    margin: auto;
+    width: 30vw;
+
+    justify-content: center;
+
+
+.bottom-nav-bar {
+    background-color: #D9D9D9;
+    position: absolute;
+    height: 7vh;
+    bottom: 0;
+    width: 100vw;
+}
+
+.smiley {
+
+    padding: 2%;
+    margin: auto;
+    margin-top: 9px;
+    font-size: 2rem;
+
+    .mic{
+        font-size: 2.5rem;
+    }
+}
+
+
+.type {
+    font-style: italic;
+    height: 48%;
+    margin: auto;
+    width: 65%;
+    border: 0;
+
+    background-color: #D9D9D9;
+    color: #BCBBB7;
+
+}
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .chat {
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .chat {
+        width: 86vw;
+    }
+}

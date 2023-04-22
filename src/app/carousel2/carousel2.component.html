@@ -1,0 +1,26 @@
+
+
+<div *ngIf="images && images.length > 0" class="carousel2-container" >
+    <img *ngFor="let image of images; let i=index"
+    [src]="image.imageSrc" [alt]="image.imageAlt"
+    [ngClass]="{'image-active': selectedIndex === i}"
+    class="fade"
+    > 
+
+    <div class="text_overlay">
+        <p class='text'>Creativity meets opportunity. A perfect pair of shoes can take you places
+            you never thought possible.
+            Let's go on an adventure...
+        </p>
+    
+        <div class="button">
+                    <!-- <a routerLink="/shoe" routerLinkActive="active" ariaCurrentWhenActive="page"> -->
+                        <button class="explore" (click)="openDialog()">Explore</button>
+                        <!-- </a> -->
+        </div>
+
+    
+    </div>
+
+</div>
+

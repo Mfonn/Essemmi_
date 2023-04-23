@@ -1,10 +1,23 @@
 
+<div class="navbar" *ngIf="showNavbar">
+    <ul>
+      <li>Navigation 1</li>
+      <li>Navigation 2</li>
+      <li>Navigation 3</li>
+    </ul>
+  </div>
+
+
 <div class="original">
     <app-carousel
     [images]="images"
     [autoSlide]="true"
     ></app-carousel>
     
+    <div class="top">
+        <p class="title">Essemmi</p>
+        <p class="peak">Peak Elegance At Your Fingetips...</p>
+    </div>
 
     <div class="message">
         

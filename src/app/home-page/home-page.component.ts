@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { LikeToDesignComponent } from '../like-to-design/like-to-design.component';
 import { ChatComponent } from '../chat/chat.component';
@@ -37,6 +37,7 @@ export class HomePageComponent {
     imageAlt: 'shoe3',
   }
 ]
+  showNavbar: boolean | undefined;
 
 
 constructor(public dialog : MatDialog){}
@@ -48,6 +49,20 @@ constructor(public dialog : MatDialog){}
   openDialogg(){
     this.dialog.open(ChatComponent)
     }
+
+
+    @HostListener('window:scroll', [])
+    onWindowScroll() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        this.showNavbar = true;
+      } else {
+        this.showNavbar = false;
+      }
+    }
+
+
+
 }
+
 
 

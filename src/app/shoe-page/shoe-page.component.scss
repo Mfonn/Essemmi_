@@ -6,7 +6,7 @@
 
 .bottom-nav-bar {
     background-color: #D9D9D9;
-    position: fixed;
+    position: relative;
     height: 10vh;
     width: 100%;
     bottom: 0;
@@ -14,3 +14,152 @@
     left: 0;
     right: 0;
 }
+
+.top-nav-bar {
+    background-color: #D9D9D9;
+    height: 8vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back, .menu {
+    color: #FFFFFF;
+    width: 10vw;
+    height: 5vh;
+    font-size: 50px;
+}
+
+.text_2 {
+    font-family: "Josefin Slab", serif;
+    font-size: 2vw;
+    color: #361B1B;
+    display: inline;
+    font-style: normal;
+    padding-left: 4%;
+}
+
+.text_2:hover {
+    color:#D9D9D9;
+}
+
+.check {
+    font-size: 5vw;
+    position: relative;
+    top: 26px;
+    border-radius: 100%;
+    margin: 2px;
+    width: auto;
+    height: auto;
+    color: #361B1B
+}
+
+.check:hover {
+    color:#D9D9D9;
+}
+
+.size {
+    color: #361B1B;
+    border-radius: 100%;
+}
+
+.line {
+    display: inline-flex;
+    width: 18vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.process {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.design_shoe {
+    top: 5%;
+    position: relative;
+    width: 60vw;
+    margin: auto;
+}
+
+.shoe_design {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.love, .share {
+    z-index: 10;
+    position: relative;
+    border-radius: 0%;
+    float: right;
+    top: 9vh;
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    color: #EDEDED;
+    margin-right: 5%;
+}
+
+.love:hover, .share:hover {
+    color:#361B1B;
+}
+
+@media only screen and (max-width: 900px) {
+    .top-nav-bar {
+        height: 6vh;
+    }
+
+    .back, .menu {
+        font-size: 40px;
+    }
+
+    .text_2 {
+        font-size: 3.5vw;
+    }
+
+    .line {
+        width: 12vw;
+    }
+
+    .design_shoe {
+        top: 2%;
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .top-nav-bar {
+        height: 5vh;
+    }
+
+    .back, .menu {
+        font-size: 30px;
+    }
+
+    .check {
+        top: 14px;
+    }
+
+    .line {
+        width: 10vw;
+        top: 4px;
+        position: relative;
+        margin-left: 4%;
+    }
+
+    .text_2 {
+        padding-left: 2%;
+    }
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .check {
+        height: 10vh;
+    }
+}
+

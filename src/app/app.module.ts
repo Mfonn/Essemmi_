@@ -13,6 +13,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { BeltPageComponent } from './belt-page/belt-page.component';
 import { ChatComponent } from './chat/chat.component';
 import { Carousel2Module } from "./carousel2/carousel2.module";
+import { LoginComponent } from './login/login.component';
+import { CartComponent } from './cart/cart.component';
 
 
 
@@ -24,6 +26,8 @@ import { Carousel2Module } from "./carousel2/carousel2.module";
         LikeToDesignComponent,
         BeltPageComponent,
         ChatComponent,
+        LoginComponent,
+        CartComponent,
     ],
     // imports: [
     //   BrowserModule,

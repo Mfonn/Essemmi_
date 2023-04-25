@@ -1,18 +1,46 @@
 .original {
-    background-color: #646464;
+    background-color: #BCBBB7;
     height: 100vh;
     margin: 0;
 }
 
 .bottom-nav-bar {
     background-color: #D9D9D9;
-    position: relative;
-    height: 10vh;
+    position: absolute;
+    height: 7vh;
     width: 100%;
     bottom: 0;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
     z-index: 10;
     left: 0;
     right: 0;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+      }
+
+    li {
+        display: inline;
+    }
+
+    li a:hover {
+        background-color: #BCBBB7;
+      }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .top-nav-bar {
@@ -20,7 +48,7 @@
     height: 8vh;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 3%;
+    padding-top: 1%;
     display: flex;
     justify-content: space-between;
 }
@@ -38,7 +66,7 @@
     color: #361B1B;
     display: inline;
     font-style: normal;
-    padding-left: 4%;
+    padding-left: 1%;
 }
 
 .text_2:hover {
@@ -46,9 +74,9 @@
 }
 
 .check {
-    font-size: 5vw;
+    font-size: 3vw;
     position: relative;
-    top: 26px;
+    top: 20px;
     border-radius: 100%;
     margin: 2px;
     width: auto;
@@ -67,28 +95,42 @@
 
 .line {
     display: inline-flex;
-    width: 18vw;
+    width: 10vw;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 
 .process {
-    padding-left: 4%;
-    padding-right: 4%;
+    width: 60vw;
+    margin: auto;
+    padding-right: 3%;
+    margin-top: 2%;
+
 }
 
 .design_shoe {
     top: 5%;
     position: relative;
-    width: 60vw;
-    margin: auto;
+    width: 100vw;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .shoe_design {
     object-fit: cover;
-    width: 100%;
+    width: 40vw;
 
+}
+
+.left {
+    margin-right: 4%;
+    width: 50%;
+}
+
+.right {
+    width: 35vw;
 }
 
 .love, .share {
@@ -101,16 +143,120 @@
     width: auto;
     height: auto;
     color: #EDEDED;
-    margin-right: 5%;
+    margin-right: 20%;
+}
+
+.love {
+    margin-right: 20%;
+}
+
+.share {
+    margin-right: 4%;
 }
 
 .love:hover, .share:hover {
     color:#361B1B;
 }
 
+.price {
+    color: #361B1B;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Inter';
+    font-weight: 600;
+
+}
+
+
+.style_material {
+    background-color: #D9D9D9;
+    color: #361B1B;
+    text-align: center;
+    font-family: 'Inter';
+    padding-top: 1%;
+    font-weight: 800;
+    margin: 0;
+    font-size: 3vw;
+    padding-bottom: 1%;
+
+}
+
+.style {
+    margin: 0;
+}
+
+.buttons {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.model, .sole {
+    width: 10vw;
+    height: 47px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.6vw;
+    box-shadow: 2px 4px #888888;
+    border: 1px solid #361B1B;
+    color: #361B1B;
+    background-color: #BCBBB7;
+
+}
+
+.sole, .laces, .eyelets {
+    margin-top: 4%;
+}
+
+.toe, .laces {
+    width: 10vw;
+    height: 47px;
+    margin-right: 2%;
+    font-size: 1.6vw;
+    box-shadow: 2px 4px #888888;
+    border: 1px solid #361B1B;
+    color: #361B1B;
+    background-color: #BCBBB7;
+}
+
+.medallion, .eyelets {
+    width: 10vw;
+    height: 47px;
+    font-size: 1.6vw;
+    box-shadow: 2px 4px #888888;
+    border: 1px solid #361B1B;
+    color: #361B1B;
+    background-color: #BCBBB7;
+}
+
+.next_button {
+    position: absolute;
+    bottom: -10vh;
+    width: 100%;
+    text-align: center;
+    
+
+    button {
+        background-color: #361B1B;
+        color: #EDEDED;
+        height: 7vh;
+        width: 15vw;
+        font-family: 'Josefin Slab';
+        font-size: 2vw;
+        box-shadow: 2px 4px #888888;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .top-nav-bar {
         height: 6vh;
+    }
+
+    .bottom-nav-bar {
+        img {
+            width: 30px;
+            height: 30px;
+        }
     }
 
     .back, .menu {
@@ -126,9 +272,62 @@
     }
 
     .design_shoe {
-        top: 2%;
-        width: 70vw;
+        top: 4%;
+        width: 90vw;
+        margin: auto;
     }
+
+    .process {
+        width: 100vw;
+        padding-right: 4%;
+        text-align: center;
+    }
+
+    .check {
+        font-size: 5vh;
+    }
+
+    .left {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .right {
+        width: 100vw;
+    }
+
+    .shoe_design {
+        object-fit: cover;
+        width: 42%;
+        margin: auto;
+    }
+
+    .share {
+        top: 6vh;
+        font-size: 30px;
+
+    }
+
+    .love {
+        margin-right: 0%;
+    }
+
+    .price {
+        font-size: 2.5vw;
+    }
+
+    .toe, .eyelets, .sole, .laces, .medallion, .model {
+        width: 28vw;
+        font-size: 3.6vw;
+    }
+
+    .next_button {
+
+        button {
+        font-size: 3.5vw;
+        }
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -142,6 +341,11 @@
 
     .check {
         top: 14px;
+        font-size: 3vh;
+    }
+
+    .process {
+        margin-top: 4%;
     }
 
     .line {
@@ -154,6 +358,30 @@
     .text_2 {
         padding-left: 2%;
     }
+
+    .toe, .eyelets, .sole, .laces, .medallion, .model {
+        width: 26vw;
+        font-size: 3vw;
+        height: 35px;
+    }
+
+    .buttons {
+        margin-left: 2%;
+    }
+
+    .shoe_design {
+        width: 75%;
+    }
+
+    .next_button {
+        bottom: -22vh;
+
+        button {
+            font-size: 6.5vw;
+            width: 41vw;
+        }
+    }
+
 }
 
 

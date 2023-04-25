@@ -8,19 +8,65 @@
     </div>
 
     <div class="process">
-        <mat-icon class="check">check_circle_outline</mat-icon><p class="text_2">Style</p><hr class="line" color="#361B1B">
-            <mat-icon class="check">check_circle_outline</mat-icon><p class="text_2">Material</p><hr class="line" color="#361B1B">
-            <mat-icon class="check size">check_circle_outline</mat-icon><p class="text_2">Size</p>
+        <img src="assets/images/one.png"><p class="text_2">Style</p><hr class="line" color="#361B1B">
+        <img src="assets/images/two.png"><p class="text_2">Material</p><hr class="line" color="#361B1B">
+        <img src="assets/images/three.png"><p class="text_2">Size</p>
     </div>
 
     <div class="design_shoe">
-        <mat-icon class="love">favorite</mat-icon>
-        <mat-icon class="share">share</mat-icon>
+        <div class="left">
+
+        <!-- <mat-icon class="love">favorite</mat-icon>
+        <mat-icon class="share">share</mat-icon> -->
         <img src="assets/images/designshoe.jpg" alt="shoe being designed" class="shoe_design"/>
+        </div>
+
+        <div class="right">
+            <div class="price_container">
+                <p class="price">Price: $100</p>
+            </div>
+
+            <div class="style_material">
+                <p class="style">Style</p>
+            </div>
+
+            <div class="buttons">
+                <button class="model">Model</button>
+                <button class="toe">Toe Cap</button>
+                <button class="medallion">Medallion</button>
+                <button class="sole">Sole</button>
+                <button class="laces">Laces</button>
+                <button class="eyelets">Eyelets</button>
+            </div>
+
+        </div>
+
+        <div class="next_button">
+            <button>Next</button>
+        </div>
     </div>
 
+ 
+
     <div class="bottom-nav-bar">
-        
+            <ul>
+              <li>
+                <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <img src="assets/images/logo.jpg">
+                </a>
+              </li> 
+              <li>
+                <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <img src="assets/images/user.png">
+                </a>
+              </li> 
+              <li>
+                <a routerLink="/cart" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <img src="assets/images/cart.png">
+                </a>
+              </li> 
+            </ul>
+
     </div>
 
 </div>

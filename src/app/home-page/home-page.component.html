@@ -1,10 +1,23 @@
 
 <div class="navbar" *ngIf="showNavbar">
-    <ul>
-      <li>Navigation 1</li>
-      <li>Navigation 2</li>
-      <li>Navigation 3</li>
-    </ul>
+        <ul>
+          <li>
+            <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <img src="assets/images/logo.jpg">
+            </a>
+          </li> 
+          <li>
+            <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <img src="assets/images/user.png">
+            </a>
+          </li> 
+          <li>
+            <a routerLink="/cart" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <img src="assets/images/cart.png">
+            </a>
+          </li> 
+        </ul>
+
   </div>
 
 
@@ -57,9 +70,9 @@
 
 
 <div class="world">
-    <p class="world_text">The world is at your feet,</p>
-     <p class="world_text">so make sure you’re</p>   
-      <p class="world_text"> wearing great shoes...</p>
+    <p class="world_text">The world is at your feet,
+                             so make sure you’re  
+     wearing great shoes...</p>
 </div>
 
 <div class="footer">

@@ -11,6 +11,45 @@ html {
     padding-bottom: 4%;
 }
 
+.navbar {
+    background-color: #D9D9D9;
+    position: absolute;
+    height: 7vh;
+    width: 100%;
+    bottom: 0;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    left: 0;
+    right: 0;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+      }
+
+    li {
+        display: inline;
+    }
+
+    li a:hover {
+        background-color: #BCBBB7;
+      }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 .title {
     font-family: 'Jacques Francois', serif;
     color: #FFFFFF;
@@ -142,15 +181,12 @@ mat-icon {
 
 .world {
     background-color: #361B1B;
-    color:#EDEDED;
+    color: #EDEDED;
     height: 25vh;
-    
     font-size: 2vw;
-
-    width: 60vw;
-    margin: auto;
+    display: flex;
+    justify-content: center;
     text-align: center;
-
     padding-top: 15%;
 }
 

@@ -15,6 +15,8 @@ import { ChatComponent } from './chat/chat.component';
 import { Carousel2Module } from "./carousel2/carousel2.module";
 import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 
@@ -28,6 +30,8 @@ import { CartComponent } from './cart/cart.component';
         ChatComponent,
         LoginComponent,
         CartComponent,
+        ForgotpasswordComponent,
+        SignupComponent,
     ],
     // imports: [
     //   BrowserModule,

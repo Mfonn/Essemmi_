@@ -5,6 +5,9 @@ import { ShoePageComponent } from './shoe-page/shoe-page.component';
 import { BeltPageComponent } from './belt-page/belt-page.component';
 import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { SignupComponent } from './signup/signup.component';
+
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -12,7 +15,9 @@ const routes: Routes = [
   { path: 'shoe', component: ShoePageComponent },
   { path: 'belt', component: BeltPageComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'cart', component: CartComponent }
+  { path: 'cart', component: CartComponent },
+  { path: 'forgotpassword', component: ForgotpasswordComponent },
+  { path: 'signup', component: SignupComponent }
 ];
 
 @NgModule({

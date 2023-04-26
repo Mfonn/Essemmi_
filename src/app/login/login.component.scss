@@ -1,3 +1,176 @@
 html {
     background-color: #838383;
 }
+
+.body {
+    background-color: #BCBBB7;
+    height: 100%;
+    width: 100%;
+}
+
+.main_form, .new {
+    margin:auto;
+    width: 52%;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+.login_form {
+    display: inline-block;
+
+    .login_button {
+        background-color: #361b1b;
+        font-family: 'Josefin Slab';
+        color: #ededed;
+        padding: 3%;
+        margin: auto;
+        font-size: 4vh;
+        width: 94%;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #EDEDED;
+        font-style: italic;
+        font-size: 2vh;
+        text-align: right;
+        text-underline-offset: 5px; 
+    }
+
+    .forgot {
+        margin-top: 4%;
+        margin-right: 5%;
+    }
+  
+}
+
+
+.email, .password {
+    background-color: #EDEDED;
+    padding: 3%;
+    width: 94%;
+    margin-bottom: 4%;
+    font-size: 2.5vh;
+    border: 0;
+    box-shadow: 2px 4px #888888;
+    font-style: italic;
+    color: #361B1B;
+}
+
+.login_alternatives {
+    margin-top: 14%;
+
+    .login {
+        font-family: 'Inter';
+        font-style: italic;
+        color:#361B1B;
+        font-size: 3vh;
+        margin-bottom: 5%;
+    }
+
+    .icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 3vh;
+    }
+}
+
+.new {
+    .new {
+        font-family: 'Inter';
+        font-style: italic;
+        color:#361B1B;
+        font-size: 3vh;
+        margin-bottom: 2%;
+    }
+
+    .signup {
+        background-color: #361b1b;
+        font-family: 'Josefin Slab';
+        color: #ededed;
+        padding: 3%;
+        margin: auto;
+        font-size: 4vh;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .main_form {
+        width: 60%;
+        padding-top: 15%;
+    }
+
+    .email, .password {
+        height: 4vh;
+        font-size: 2vh;
+        padding: 9%;
+        width: 100%;
+    }
+
+    .login_form {
+        .login_button {
+            margin-top: 10%;
+            width: 100%;
+        }
+    }
+
+    .login_alternatives {
+        .login {
+            font-size: 2.5vh;
+        }
+    }
+
+  
+        .new {
+            margin-top: 5%;
+
+            .signup {
+                font-size: 3vh;
+            }
+        }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .email, .password {
+        font-size: 1.5vh;
+    }
+
+    .email {
+        margin-bottom: 5%;
+    }
+
+    .password {
+        margin-bottom: 7%;
+    }
+
+    .login_form {
+        .login_button {
+            font-size: 2.5vh;
+        }
+    }
+
+    .new {
+        .signup {
+            font-size: 2.5vh;
+        }
+    }
+
+    .login_alternatives {
+        margin-top: 50%;
+    }
+
+    .icons {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

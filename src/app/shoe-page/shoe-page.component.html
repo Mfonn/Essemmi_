@@ -13,7 +13,9 @@
         <img src="assets/images/three.png"><p class="text_2">Size</p>
     </div>
 
-    <div class="design_shoe">
+    <!-- for first div -->
+
+    <div class="design_shoe" id="div1" style="display:flex;">
         <div class="left">
 
         <!-- <mat-icon class="love">favorite</mat-icon>
@@ -41,9 +43,138 @@
 
         </div>
 
-        <div class="next_button">
-            <button>Next</button>
+
+
+        
+            <div class="next_button" id="div1" style="display:flex">
+             <button class="next" (click)="next()">Next</button>   
+            </div>
+
+
+            </div>
+
+            
+       
+
+     <!-- for the second div -->
+     
+
+    <div class="design_shoe" id="div2" style="display:none;">
+        <div class="left">
+
+        <!-- <mat-icon class="love">favorite</mat-icon>
+        <mat-icon class="share">share</mat-icon> -->
+        <img src="assets/images/designshoe.jpg" alt="shoe being designed" class="shoe_design"/>
         </div>
+
+        <div class="right">
+            <div class="price_container">
+                <p class="price">Price: $100</p>
+            </div>
+
+            <div class="style_material">
+                <p class="style material">Material</p>
+            </div>
+
+            <div class="buttons">
+                <button class="pieces">All Pieces Mix</button>
+                <button class="toe">Vamp</button>
+                <button class="medallion">Quarter</button>
+                <button class="sole">Tongue</button>
+                <button class="laces">Heel Cap</button>
+                <button class="eyelets">Facing</button>
+            </div>
+
+        </div>
+
+
+        <div class="next_button" id="div2" style="display:flex;"> 
+            <button class="previous" (click)="previous()">Previous</button>   
+           </div>
+        <div class="next_button" id="div2" style="display:flex;"> 
+            <button class="next" (click)="next()">Next</button>   
+           </div>
+
+</div>
+
+
+
+ <!-- for the third div -->
+     
+
+ <div class="design_shoe" id="div3" style="display:none;">
+    <div class="left">
+
+    <!-- <mat-icon class="love">favorite</mat-icon>
+    <mat-icon class="share">share</mat-icon> -->
+    <img src="assets/images/designshoe.jpg" alt="shoe being designed" class="shoe_design"/>
+    </div>
+
+    <div class="right">
+        <div class="price_container">
+            <p class="price">Price: $100</p>
+        </div>
+
+        <div class="style_material">
+            <p class="style">Size</p>
+        </div>
+
+        <div class="buttons">
+            <button class="size sizze" type="button"(click)="popup = true">
+                Select Size
+               </button>
+
+           
+            
+                <button class="size wordds">
+                <a routerLink="/findsize" routerLinkActive="active" ariaCurrentWhenActive="page">
+
+                CAN'T FIND YOUR SIZE?
+                </a>
+        </button>
+
+            <button type="button"(click)="popup2 = true" class="size wordds">WHAT DOES 'W' MEAN?</button>
+        </div>
+
+
+    </div>
+
+    <div class="next_button" id="div2" style="display:flex;"> 
+        <button class="previous" (click)="previous()">Previous</button>   
+       </div>
+
+    <div class="next_button" id="div3" style="display:flex;">
+        <a routerLink="/cart" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <button class="next">Add To Bag</button>   
+         </a>
+       </div>
+</div>
+
+
+<!-- div for popup for  shoe size -->
+<div class="size_popup">
+<div class="overlay" *ngIf="popup">
+    <div class="popup">
+        <a class="close" (click)="popup = false">&times;</a>
+        <button>US 3</button>
+        <button>US 3W</button>
+        <button style="margin-bottom:5%">US 4</button>
+    </div>
+</div>
+</div>
+
+<!-- div popup for W -->
+<div class="size_popup">
+    <div class="overlay" *ngIf="popup2">
+        <div class="popup popup2">
+            <a class="close" (click)="popup2 = false">&times;</a>
+            <h3>WHAT DOES "W" MEAN?</h3>
+            <p>Wide is indicated by the letter "W" next to the size.
+                 These shoes are made with a larger width to properly fit your feet.
+                 The length is the same as a typical shoe size. If our estimator recommends a 
+                W size or if you have broader feet, just select the specific W-width.</p>
+        </div>
+    </div>
     </div>
 
  

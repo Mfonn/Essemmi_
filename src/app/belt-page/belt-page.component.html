@@ -1,1 +1,157 @@
-<p>belt-page works!</p>
+<div class="original">
+    <div class="top-nav-bar">
+       
+     <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+         <mat-icon class="back">arrow_back_ios</mat-icon>
+     </a>
+        <mat-icon class="menu">menu</mat-icon>
+    </div>
+
+    <div class="process">
+        <img src="assets/images/one.png"><p class="text_2">Style</p><hr class="line" color="#361B1B">
+        <img src="assets/images/two.png"><p class="text_2">Size</p>
+    </div>
+
+    <!-- for first div -->
+
+    <div class="design_shoe" id="div1" style="display:flex;">
+        <div class="left">
+
+        <!-- <mat-icon class="love">favorite</mat-icon>
+        <mat-icon class="share">share</mat-icon> -->
+        <img src="assets/images/belt.png" alt="shoe being designed" class="shoe_design"/>
+        </div>
+
+        <div class="right">
+            <div class="price_container">
+                <p class="price">Price: $30</p>
+            </div>
+
+            <div class="style_material">
+                <p class="style">Style</p>
+            </div>
+
+            <div class="buttons">
+                <button class="model">Buckle</button>
+                <button class="toe">Material</button>
+                <button class="medallion">Tip</button>
+                <button class="sole">Tip Cover</button>
+                <button class="laces">Loop</button>
+                <button class="eyelets">Strap Colour</button>
+            </div>
+
+        </div>
+
+
+
+        
+            <div class="next_button" id="div1" style="display:flex">
+             <button class="next" (click)="next()">Next</button>   
+            </div>
+
+
+            </div>
+
+        
+
+
+ <!-- for the second div -->
+     
+
+ <div class="design_shoe" id="div3" style="display:none;">
+    <div class="left">
+
+    <!-- <mat-icon class="love">favorite</mat-icon>
+    <mat-icon class="share">share</mat-icon> -->
+    <img src="assets/images/belt.png" alt="belt being designed" class="shoe_design"/>
+    </div>
+
+    <div class="right">
+        <div class="price_container">
+            <p class="price">Price: $30</p>
+        </div>
+
+        <div class="style_material">
+            <p class="style">Size</p>
+        </div>
+
+        <div class="buttons">
+            <button class="size sizze" type="button"(click)="popup = true">
+                Select Size
+               </button>
+
+
+            <button type="button"(click)="popup2 = true" class="size wordds">BELT GUIDE SIZE</button>
+        </div>
+
+
+    </div>
+
+    <div class="next_button" id="div2" style="display:flex;"> 
+        <button class="previous" (click)="previous()">Previous</button>   
+       </div>
+
+    <div class="next_button" id="div3" style="display:flex;">
+        <a routerLink="/cart" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <button class="next">Add To Bag</button>   
+         </a>
+       </div>
+</div>
+
+
+<!-- div for popup for  shoe size -->
+<div class="size_popup">
+<div class="overlay" *ngIf="popup">
+    <div class="popup">
+        <a class="close" (click)="popup = false">&times;</a>
+        <div class="titles">
+            <h2 class="left">Waist Size(cm)</h2>
+            <h2 class="right">RECOMMENDED
+                LENGTH IN INCHES
+                (’’)</h2>
+        </div>
+        <hr>
+
+        <button>82cm - 28’’</button>
+        <button>87cm - 30’’</button>
+        <button style="margin-bottom:5%">92cm - 32’’</button>
+    </div>
+</div>
+</div>
+
+<!-- div popup for W -->
+<div class="size_popup">
+    <div class="overlay" *ngIf="popup2">
+        <div class="popup popup2">
+            <a class="close" (click)="popup2 = false">&times;</a>
+            <p>Measure in centimeters (cm), 
+                your current belt, from the buckle 
+                to the hole you usually use.  </p>
+        </div>
+    </div>
+    </div>
+
+ 
+
+    <div class="bottom-nav-bar">
+            <ul>
+              <li>
+                <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <img src="assets/images/logo.jpg" alt="logo links to home page">
+                </a>
+              </li> 
+              <li>
+                <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <img src="assets/images/user.png" alt="user links to login">
+                </a>
+              </li> 
+              <li>
+                <a routerLink="/cart" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <img src="assets/images/cart.png" alt="cart links to cart">
+                </a>
+              </li> 
+            </ul>
+
+    </div>
+
+</div>

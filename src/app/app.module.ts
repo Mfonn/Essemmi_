@@ -17,6 +17,7 @@ import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { SignupComponent } from './signup/signup.component';
+import { FindsizeComponent } from './findsize/findsize.component';
 
 
 
@@ -32,6 +33,7 @@ import { SignupComponent } from './signup/signup.component';
         CartComponent,
         ForgotpasswordComponent,
         SignupComponent,
+        FindsizeComponent,
     ],
     // imports: [
     //   BrowserModule,

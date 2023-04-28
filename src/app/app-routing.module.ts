@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { SignupComponent } from './signup/signup.component';
+import { FindsizeComponent } from './findsize/findsize.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'cart', component: CartComponent },
   { path: 'forgotpassword', component: ForgotpasswordComponent },
-  { path: 'signup', component: SignupComponent }
+  { path: 'signup', component: SignupComponent },
+  { path: 'findsize', component: FindsizeComponent }
 ];
 
 @NgModule({

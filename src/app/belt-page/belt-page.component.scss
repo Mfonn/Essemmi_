@@ -1,0 +1,677 @@
+.original {
+    background-color: #BCBBB7;
+    height: 100vh;
+    margin: 0;
+}
+
+.bottom-nav-bar {
+    background-color: #D9D9D9;
+    position: absolute;
+    height: 7vh;
+    width: 100%;
+    bottom: 0;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    left: 0;
+    right: 0;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+      }
+
+    li {
+        display: inline;
+    }
+
+    li a:hover {
+        background-color: #BCBBB7;
+      }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.top-nav-bar {
+    background-color: #D9D9D9;
+    height: 8vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back, .menu {
+    color: #FFFFFF;
+    width: 10vw;
+    height: 5vh;
+    font-size: 50px;
+}
+
+.text_2 {
+    font-family: "Josefin Slab", serif;
+    font-size: 2vw;
+    color: #361B1B;
+    display: inline;
+    font-style: normal;
+    padding-left: 1%;
+}
+
+.text_2:hover {
+    color:#D9D9D9;
+}
+
+.check {
+    font-size: 3vw;
+    position: relative;
+    top: 20px;
+    border-radius: 100%;
+    margin: 2px;
+    width: auto;
+    height: auto;
+    color: #361B1B
+}
+
+.check:hover {
+    color:#D9D9D9;
+}
+
+.size {
+    color: #361B1B;
+    border-radius: 100%;
+}
+
+.line {
+    display: inline-flex;
+    width: 10vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.process {
+    width: 60vw;
+    margin: auto;
+    padding-right: 3%;
+    margin-top: 2%;
+
+}
+
+.design_shoe {
+    top: 5%;
+    position: relative;
+    width: 100vw;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shoe_design {
+    object-fit: cover;
+    width: 40vw;
+
+}
+
+
+.left {
+    margin-right: 4%;
+    width: 50%;
+}
+
+.right {
+    width: 35vw;
+}
+
+.love, .share {
+    z-index: 10;
+    position: relative;
+    border-radius: 0%;
+    float: right;
+    top: 9vh;
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    color: #EDEDED;
+    margin-right: 20%;
+}
+
+.love {
+    margin-right: 20%;
+}
+
+.share {
+    margin-right: 4%;
+}
+
+.love:hover, .share:hover {
+    color:#361B1B;
+}
+
+.price {
+    color: #361B1B;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Inter';
+    font-weight: 600;
+
+}
+
+
+.style_material {
+    background-color: #D9D9D9;
+    color: #361B1B;
+    text-align: center;
+    font-family: "Inter";
+    padding-top: 1%;
+    font-weight: 800;
+    margin: auto;
+    width: 90%;
+    margin-top: 2%;
+    font-size: 3vw;
+    padding-bottom: 1%;
+
+}
+
+.material {
+    font-size: 3.5vh;
+}
+
+.style {
+    margin: 0;
+}
+
+.buttons {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .size {
+        width: 20vw;
+        height: 47px;
+        margin: auto;
+        display: block;
+        font-size: 1.6vw;
+        box-shadow: 2px 4px #888888;
+        border: 1px solid #361B1B;
+        color: #361B1B;
+        background-color: #BCBBB7;
+        border-radius: 0;
+    }
+
+    .words {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Inter';
+    color: #361b1b;
+    font-size: 2.5vh;
+    }
+
+    .wordds {
+            margin-top: 4%;
+            margin-bottom: 1%;
+            width: 26vw;
+            height: 7vh;
+    }
+
+    .sizze {
+        height: 7vh;
+        width: 26vw;
+    }
+}
+
+.pieces {
+    font-size: 1.2vw;
+    width: 10vw;
+    height: 47px;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 2px 4px #888888;
+    border: 1px solid #361B1B;
+    color: #361B1B;
+    background-color: #BCBBB7;
+}
+
+.model, .sole {
+    width: 10vw;
+    height: 47px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.2vw;
+    box-shadow: 2px 4px #888888;
+    border: 1px solid #361B1B;
+    color: #361B1B;
+    background-color: #BCBBB7;
+
+}
+
+
+
+.sole, .laces, .eyelets {
+    margin-top: 4%;
+}
+
+.toe, .laces {
+    width: 10vw;
+    height: 47px;
+    margin-right: 2%;
+    font-size: 1.2vw;
+    box-shadow: 2px 4px #888888;
+    border: 1px solid #361B1B;
+    color: #361B1B;
+    background-color: #BCBBB7;
+}
+
+.medallion, .eyelets {
+    width: 10vw;
+    height: 47px;
+    font-size: 1.2vw;
+    box-shadow: 2px 4px #888888;
+    border: 1px solid #361B1B;
+    color: #361B1B;
+    background-color: #BCBBB7;
+}
+
+.next_button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+    
+
+    button {
+        background-color: #361B1B;
+        color: #EDEDED;
+        height: 7vh;
+        width: 15vw;
+        font-family: 'Josefin Slab';
+        font-size: 2vw;
+        box-shadow: 2px 4px #888888;
+    }
+
+    .previous {
+        background-color: #EDEDED;
+        color:#361B1B;
+    }
+}
+
+
+.size_popup {
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: visible;
+        opacity: 1;
+      }
+      
+      
+      .popup {
+        margin: 70px auto;
+        margin-top: 25vh;
+        padding: 20px;
+        background-color: #BCBBB7;
+        color: #361B1B;
+        border-radius: 5px;
+        width: 30%;
+        position: relative;
+        transition: all 5s ease-in-out;
+
+        hr {
+            color: #361b1b;
+            margin-top: 5%;
+        }
+
+        button {
+            margin-top: 20%;
+            display: block;
+            border: 0;
+            background-color: transparent;
+            height: 5vh;
+            font-size: 3vh;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #361B1B;
+        }
+      }
+      
+      .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+      }
+      .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+      }
+      .popup .close:hover {
+        cursor: pointer;
+      }
+      .popup .content {
+        max-height: 30%;
+        overflow: auto;
+      }
+
+      .popup2 {
+        width: 45%;
+
+        h3 {
+            margin-top: 5%;
+            text-align: center;
+            font-size: 4vh;
+        }
+
+        p {
+            width: 60%;
+            margin: auto;
+            margin-top: 2%;
+            margin-bottom: 5%;
+            text-align: center;
+            font-size: 3vh;
+
+        }
+      }
+      
+}
+
+a {
+    text-decoration: none;
+    color: #361b1b;
+}
+
+
+.titles {
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    width: 90%;
+    font-size: 1.5vh;
+
+    .left {
+        width: 50%;
+
+    }
+
+    .right {
+        width: 50%;
+        font-size: 1.5vh
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .buttons {
+        .wordds, .sizze {
+            height: 5vh;
+        }
+    
+    }
+
+    .size_popup {
+        .popup2 {
+            margin-top: 15vh;
+            width: 55%;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+    .top-nav-bar {
+        height: 6vh;
+    }
+
+    .bottom-nav-bar {
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .back, .menu {
+        font-size: 40px;
+    }
+
+    .text_2 {
+        font-size: 3.5vw;
+    }
+
+    .line {
+        width: 12vw;
+    }
+
+    .design_shoe {
+        top: 4%;
+        width: 90vw;
+        margin: auto;
+    }
+
+    .process {
+        width: 100vw;
+        padding-right: 4%;
+        text-align: center;
+    }
+
+    .check {
+        font-size: 5vh;
+    }
+
+    .left {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .right {
+        width: 100vw;
+    }
+
+    .shoe_design {
+        object-fit: cover;
+        width: 42%;
+        margin: auto;
+    }
+
+    .share {
+        top: 6vh;
+        font-size: 30px;
+
+    }
+
+    .love {
+        margin-right: 0%;
+    }
+
+    .price {
+        font-size: 2.5vw;
+    }
+
+    .toe, .eyelets, .sole, .laces, .medallion, .model, .pieces {
+        width: 28vw;
+        font-size: 3.6vw;
+    }
+
+    .next_button {
+
+        button {
+        font-size: 3.5vw;
+        }
+        .previous, .next {
+            width: 30vw;
+        }
+    
+    }
+
+
+    .buttons {
+        .wordds, .sizze {
+            height: 6vh;
+            margin-top: 1%;
+            font-size: 2vw;
+        }
+    
+    }
+
+    .size_popup {
+        .popup {
+            width: 55%;
+            font-size: 2.5vh;
+        }
+
+        .popup2 {
+            width: 60%;
+            margin-top: 25vh;
+
+            h3 {
+                font-size: 2vh;
+            }
+
+            p {
+                font-size: 2vh;
+            }
+        }
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .top-nav-bar {
+        height: 5vh;
+    }
+
+    .back, .menu {
+        font-size: 30px;
+    }
+
+    .check {
+        top: 14px;
+        font-size: 3vh;
+    }
+
+    .process {
+        margin-top: 4%;
+    }
+
+    .line {
+        width: 10vw;
+        top: 4px;
+        position: relative;
+        margin-left: 4%;
+    }
+
+    .text_2 {
+        padding-left: 2%;
+    }
+
+    .toe, .eyelets, .sole, .laces, .medallion, .model, .pieces {
+        width: 26vw;
+        font-size: 3vw;
+        height: 35px;
+    }
+
+    .buttons {
+        margin-left: 2%;
+    }
+
+    .shoe_design {
+        width: 75%;
+    }
+
+    .next_button {
+        bottom: -22vh;
+
+        button {
+            font-size: 6.5vw;
+            width: 41vw;
+        }
+
+        .next, .previous {
+            font-size: 4.5vw;
+        }
+    }
+
+    .size_popup {
+        .popup2 {
+            p {
+                font-size: 1.5vh;
+                width: 82%;
+                margin-top: 4%;
+            }
+
+            h3 {
+                font-size: 1.5vh;
+                margin-top: 20%;
+            }
+        }
+
+        .popup {
+            button {
+                margin-top: 7%;
+                font-size: 2vh;
+            }
+
+            .titles {
+                font-size: 1vh;
+
+                .right {
+                    font-size: 1vh;
+                }
+            }
+        }
+
+
+    }
+
+    .right {
+        .buttons {
+          
+
+            .wordds, .sizze {
+                width: 70vw;
+                font-size: 4vw;
+            }
+
+            .wordds {
+                margin-top: 4%;
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .check {
+        height: 10vh;
+    }
+}
+

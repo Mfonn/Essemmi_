@@ -18,6 +18,9 @@ import { CartComponent } from './cart/cart.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { SignupComponent } from './signup/signup.component';
 import { FindsizeComponent } from './findsize/findsize.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { PaymentComponent } from './payment/payment.component';
+import { OrderComponent } from './order/order.component';
 
 
 
@@ -34,6 +37,9 @@ import { FindsizeComponent } from './findsize/findsize.component';
         ForgotpasswordComponent,
         SignupComponent,
         FindsizeComponent,
+        CheckoutComponent,
+        PaymentComponent,
+        OrderComponent,
     ],
     // imports: [
     //   BrowserModule,

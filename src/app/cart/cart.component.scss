@@ -69,7 +69,7 @@
 
     .top_left {
         width: 49%;
-        margin-right: 2%;
+        margin-right: 4%;
 
         .one {
             display: flex;
@@ -161,7 +161,7 @@
     }
 
     .bottom_right {
-        width: 49%;
+        width: 45%;
 
         h3 {
             font-family: 'Inter';
@@ -174,13 +174,58 @@
         .one {
             display: flex;
             justify-content: space-between;
+            font-size: 2.2vh;
+            margin-bottom: 2%;
+
+            .subtotal_price {
+                font-weight: 600;
+            }
         }
 
         .two {
             display: flex;
             justify-content: space-between;
+            font-size: 2.2vh;
+            margin-bottom: 2%;
+
+            .shipping_price {
+                font-weight: 600;
+            }
+        }
+
+        .three {
+            display: flex;
+            justify-content: space-between;
+            font-size: 2.2vh;
+            font-weight: 600;
+
+            .total_price {
+                font-weight: 600;
+            }
         }
     }
+}
+
+.proceed {
+    width: 24%;
+    height: 6vh;
+    align-items: center;
+    margin: auto;
+    font-size: 2.4vh;
+    justify-content: center;
+    display: flex;
+    font-family: 'Josefin Slab';
+    color: #ededed;
+    background-color: #361b1b;
+}
+
+.proceed:hover {
+    background-color: #EDEDED;
+    color: #361B1B;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -210,11 +255,12 @@
             .one {
                 .a {
                 img {
-                    width: 39vw;
+                    width: 33vw;
+                    height: 20vh;
                 }
 
                 .edit {
-                    font-size: 2.5vh;
+                    font-size: 2vh;
                 }
              }
 
@@ -231,11 +277,12 @@
 
                 .a {
                     img {
-                        width: 39vw;
+                        width: 33vw;
+                        height: 20vh;
                     }
 
                     .edit {
-                        font-size: 2.5vh;
+                        font-size: 2vh;
                     }
                 }
 
@@ -249,7 +296,17 @@
 
         .bottom_right {
             width: 100%;
+
+            h3 {
+                margin-top: 2%;
+                margin-bottom: 4%;
+            }
         }
+    }
+
+    .proceed {
+        width: 44%;
+        height: 7vh;
     }
 }
 
@@ -305,11 +362,20 @@
             margin-top: 2%;
 
             h3 {
-                font-size: 1.7vh;
+                font-size: 1.5vh;
+            }
+
+            .one, .two, .three {
+                font-size: 2vh;
             }
         }
     
     }
 
+    .proceed {
+        width: 55%;
+        height: 7vh;
+        margin-top: 25%;
+    }
   
 }

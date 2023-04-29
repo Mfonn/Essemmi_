@@ -252,8 +252,14 @@ mat-icon {
         font-size: 4vw;
     }
 
-    .title {
-        font-size: 4vw;
+    .top {
+        .title {
+            font-size: 7vh;
+        }
+
+        .peak {
+            font-size: 3vh;
+        }
     }
 }
 
@@ -304,6 +310,16 @@ mat-icon {
     .where {
         font-size: 3.5vw;
         height: 15vh;
+    }
+
+    .top {
+        .title {
+            font-size: 5vh;
+        }
+
+        .peak {
+            font-size: 2vh;
+        }
     }
 }
 

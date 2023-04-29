@@ -8,7 +8,9 @@ import { CartComponent } from './cart/cart.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { SignupComponent } from './signup/signup.component';
 import { FindsizeComponent } from './findsize/findsize.component';
-
+import { PaymentComponent } from './payment/payment.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { OrderComponent } from './order/order.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -19,7 +21,10 @@ const routes: Routes = [
   { path: 'cart', component: CartComponent },
   { path: 'forgotpassword', component: ForgotpasswordComponent },
   { path: 'signup', component: SignupComponent },
-  { path: 'findsize', component: FindsizeComponent }
+  { path: 'findsize', component: FindsizeComponent },
+  { path: 'payment', component: PaymentComponent },
+  { path: 'checkout', component: CheckoutComponent },
+  { path: 'order', component: OrderComponent }
 ];
 
 @NgModule({

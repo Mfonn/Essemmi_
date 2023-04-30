@@ -1,0 +1,106 @@
+.body {
+    width: 70vw;
+    height: 70vh;
+    background-color: #BCBBB7;
+    padding: 5%;
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        margin-top: 2%;
+        color: #361b1b;
+        font-size: 3vh;
+    }
+
+    .buttons {
+        .shoe {
+            margin-bottom: 5%;
+        }
+
+        .belt {
+            margin-bottom: 5%;
+        }
+        button{
+            padding: 1%;
+            font-family: "Josefin Slab";
+            border: 1px solid #361b1b;
+            color: #361b1b;
+            font-size: 3vh;
+            height: 6vh;
+            width: 12vw;
+            justify-content: center;
+            background-color: #BCBBB7;
+            display: flex;
+            box-shadow: 0 3px 4px #646464;
+        }
+
+    }
+}
+
+.login_alternatives {
+    margin-top: 14%;
+
+    .login {
+        font-family: 'Inter';
+        font-style: italic;
+        color:#361B1B;
+        font-size: 3vh;
+        margin-bottom: 5%;
+    }
+
+    .icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .login_alternatives {
+        .login {
+            font-size: 2.5vh;
+        }
+    }
+
+    .body {
+        .buttons {
+            button {
+                height: 6vh;
+                width: 24vw;
+                align-items: center;
+            }
+        }
+
+        p {
+            margin-top: 5%;
+        }
+
+        .logout {
+
+            margin-bottom: 35%;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .login_alternatives {
+        margin-top: 50%;
+    }
+
+    .body {
+        .buttons {
+            button {
+                font-size: 2.5vh;
+            }
+        }
+
+        p {
+            font-size: 2.5vh;
+        }
+    }
+}

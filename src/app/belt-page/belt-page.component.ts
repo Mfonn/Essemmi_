@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { MenuComponent } from '../menu/menu.component';
 
 @Component({
   selector: 'app-belt-page',
@@ -26,4 +28,11 @@ popup2: any;
     currentDiv = this.divs[this.index]
     document.getElementById(currentDiv)!.style.display = "flex";
   }
+
+  constructor(public dialog : MatDialog){}
+
+  openMenu(){
+  this.dialog.open(MenuComponent)
+  }
+
 }

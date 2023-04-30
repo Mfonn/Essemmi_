@@ -21,6 +21,9 @@ import { FindsizeComponent } from './findsize/findsize.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { PaymentComponent } from './payment/payment.component';
 import { OrderComponent } from './order/order.component';
+import { MenuComponent } from './menu/menu.component';
+import { NotificationComponent } from './notification/notification.component';
+import { LogoutComponent } from './logout/logout.component';
 
 
 
@@ -40,6 +43,9 @@ import { OrderComponent } from './order/order.component';
         CheckoutComponent,
         PaymentComponent,
         OrderComponent,
+        MenuComponent,
+        NotificationComponent,
+        LogoutComponent,
     ],
     // imports: [
     //   BrowserModule,

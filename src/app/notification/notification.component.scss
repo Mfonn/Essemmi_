@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Raleway&display=swap');
+
+
+html {
+    background-color: #BCBBB7;
+    color: #361B1B;
+    margin: 0;
+    height: 100%;
+}
+.pop-up {
+    height: 50vh;
+    color: #361B1B;
+    background-color:#BCBBB7;
+    border-radius: 0;
+
+    font-family: 'Josefin Slab', serif;
+
+    margin: auto;
+    width: 40vw;
+
+    justify-content: center;
+    padding: 5%;
+}
+
+.header {
+    h3 {
+        font-family: 'Inter';
+        font-size: 4vh;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}
+
+.word {
+    p {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Inter';
+    }
+}
+
+mat-dialog-container {
+    margin: 2px;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .pop-up {
+        height: 33vh;
+    }
+
+     .header {
+        h3 {
+            font-size: 3vh;
+            margin-bottom: 15%;
+        }
+     }
+
+     .word {
+        p {
+            font-size: 1.7vh;
+        }
+     }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pop-up {
+        width: 50vw;
+        height: 45vh;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .pop-up {
+        height: 34vh;
+    }
+}

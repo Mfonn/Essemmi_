@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Raleway&display=swap');
+
+
+html {
+    background-color: #BCBBB7;
+    color: #361B1B;
+    margin: 0;
+    height: 100%;
+}
+.pop-up {
+    height: 50vh;
+    color: #361B1B;
+    background-color:#BCBBB7;
+    border-radius: 0;
+
+    font-family: 'Josefin Slab', serif;
+
+    margin: auto;
+    width: 40vw;
+
+    justify-content: center;
+}
+
+button {
+    color:#361B1B;
+    font-family: 'Josefin Slab', serif;
+}
+
+.what-div {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    width: auto;
+    top: 20%;
+    font-size: 1.6rem;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.what {
+    display: block;
+    margin: 2px;
+}
+
+.like {
+    margin: 2px;
+}
+
+
+mat-dialog-container {
+    margin: 2px;
+}
+
+button {
+    background-color: #EDEDED;
+
+    height: 3.5vh;
+    width: 9.5vw;
+    font-size: 1.2rem;
+    box-shadow: 0 3px 4px #646464;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+
+
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+
+    margin-top: 5%;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .what-div {
+        font-size: 1rem;
+    }
+
+    .button1 {
+        top: 30%;
+        font-size: 1rem;
+    }
+
+    .button2 {
+        top: 30%;
+        font-size: 1rem;
+    }
+
+    .pop-up {
+        height: 33vh;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pop-up {
+        width: 50vw;
+        height: 45vh;
+    }
+
+    .what-div {
+        font-size: 0.7rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    button {
+        width: 18.5vw;
+        font-size: 1rem;
+    }
+
+    .pop-up {
+        height: 34vh;
+    }
+}

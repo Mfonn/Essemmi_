@@ -1,0 +1,35 @@
+<div class="body">
+    <div class="buttons">
+        <a routerLink="/shoe" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <button class="shoe">Shoes</button>
+        </a>
+        <a routerLink="/belt" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <button class="belt">Belt</button>
+        </a>
+    </div>
+
+    
+
+    <hr>
+
+    <a routerLink="/notification" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <p (click)="openNotifications()">Notifications</p>
+    </a>
+    <a routerLink="/profile" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <p>Profile</p>
+    </a>
+    
+    <p class="logout" (click)="openLogOut()">Log Out</p>
+
+    <div class="login_alternatives">
+        <div class="icons">
+            <img src="assets/images/twitter.png" alt="twitter">
+            <img src="assets/images/facebook.png" alt="facebook">
+            <img src="assets/images/google.png" alt="google">
+            <img src="assets/images/instagram.png" alt="instagram">
+        </div>
+    
+    </div>
+    
+</div>
+

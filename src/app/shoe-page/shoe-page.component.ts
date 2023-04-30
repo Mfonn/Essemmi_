@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { MenuComponent } from '../menu/menu.component';
 
 @Component({
   selector: 'app-shoe-page',
@@ -25,5 +27,11 @@ popup2: any;
     this.index = (this.index - 1) % this.divs.length;
     currentDiv = this.divs[this.index]
     document.getElementById(currentDiv)!.style.display = "flex";
+  }
+
+  constructor(public dialog : MatDialog){}
+
+  openMenu(){
+  this.dialog.open(MenuComponent)
   }
 }
